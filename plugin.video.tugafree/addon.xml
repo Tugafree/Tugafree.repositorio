@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.tugafree" name="Tugafree" version="0.0.1" provider-name="Korea, Vitorgalo, AndryC, Grisalho">
+	<requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.beautifulsoup" version="3.2.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>Pt</language>
+    <platform>all</platform>
+    <summary lang="en">assista tv ao vivo</summary>
+    <description lang="en">nao transmitimos nenhum stream,tudo o que esta aqui esta ao alcance de qualquer um na internet!</description>
+    <platform>all</platform>
+  </extension>
+</addon>
